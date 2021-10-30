@@ -1,0 +1,22 @@
+{
+  "name": "_api-starter",
+  "version": "1.0.0",
+  "description": "ExpressJS API boilerplate",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js | pino-pretty",
+    "test": "exit 0"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-pino-logger": "^6.0.0",
+    "helmet": "^4.6.0",
+    "pino": "^7.0.5"
+  },
+  "devDependencies": {
+    "dotenv": "^10.0.0",
+    "nodemon": "^2.0.14",
+    "pino-pretty": "^7.1.0"
+  }
+}
