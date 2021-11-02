@@ -12,3 +12,6 @@ Notes:
   be a setup project, and that includes developer environment. Whenever this
     project is cloned for the sake of creating an API, should probs add it to
   the `.gitignore`.
+- Things to change: `package.json` (project name, etc.), `Dockerfile` (workdir
+  name), `.env` (APP_NAME), set action secrets in repo settings on GitHub, add
+  routes & business logic, etc.
