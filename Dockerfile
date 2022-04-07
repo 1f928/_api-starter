@@ -1,6 +1,6 @@
 FROM node:16-alpine3.14
 
-WORKDIR /opt/api-covid
+WORKDIR /opt/api-nodal
 COPY . .
 RUN npm ci
 

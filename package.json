@@ -1,7 +1,7 @@
 {
-  "name": "_api-starter",
+  "name": "nodal-api",
   "version": "1.0.0",
-  "description": "ExpressJS API boilerplate",
+  "description": "Nodal API",
   "main": "index.js",
   "scripts": {
     "start": "nodemon src/index.js | pino-pretty",
@@ -12,6 +12,7 @@
     "express": "^4.17.1",
     "express-pino-logger": "^6.0.0",
     "helmet": "^4.6.0",
+    "mongoose": "^6.2.7",
     "pino": "^7.0.5"
   },
   "devDependencies": {

@@ -1,17 +1,13 @@
-API Starter
---
-
-Boilerplate code for ExpressJS API - probs not the most robust, but I'll update
-it as I go.
+Nodal API
+---
+---
+My goal with this project is to create a fairly simple & flexible API for use in
+any nodal front-end projects. I want to create an API that is able to change if
+needed, but has a solid foundation to avoid expensive reworks and remodeling of
+existing data. I'd like for the data that I put into the system to make sense in
+any potential future nodal application. I understand this is not fully possible,
+as I might come across a model which works much better in the future. But I will
+try here.
 
 ---
 
-Notes:
---
-- I've left the `.env` file out of `.gitignore` for now, as this is meant to
-  be a setup project, and that includes developer environment. Whenever this
-  project is cloned for the sake of creating an API, should probs add it to
-  the `.gitignore`.
-- Things to change: `package.json` (project name, etc.), `Dockerfile` (workdir
-  name), `.env` (APP_NAME), set action secrets in repo settings on GitHub, add
-  routes & business logic, etc.
